@@ -32,3 +32,14 @@ print("It is currently {}.".format(str(date_now)))
 # Add 1000 minutes to Current Date and Time
 new_date = date_now + datetime.timedelta(minutes=1000)
 print("In 1000 minutes it will be {}.".format(str(new_date)))
+
+from pprint import pprint
+from common_vars import *
+
+print(books)
+
+print()
+
+pprint(books)
+
+print()
